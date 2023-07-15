@@ -3,7 +3,6 @@ const AppError = require("../utils/AppError");
 
 class NotesController {
   async create(req, res) {
-    console.log(req.body);
     const { title, description } = req.body;
 
     if (!title || !description) {
