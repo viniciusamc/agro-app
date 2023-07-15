@@ -1,0 +1,107 @@
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.input-wrapper input:focus {
+  border: 1px solid #000;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+table thead, table tbody {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+table thead th, table tbody td {
+  width: 100%;
+  padding: 10px 
+}
+
+table tbody tr:nth-child(odd){
+  background-color: #07bb94;
+}
+
+table tbody tr:hover{
+  border: 1px solid #fff;
+}
+
+button  {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: #f00;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background: rgb(121, 0, 0);
+}
+
+.btn-concluir {
+  background-color: rgb(8, 143, 8);
+  color: #fff;
+}
+
+.btn-concluir:hover {
+  background-color: rgb(0, 121, 0);
+}
