@@ -48,7 +48,7 @@ Para conseguir ver na web digite o seguinte comando:
 
   npm install
 
-  npm dev ## Se você editou a porta da API faça a seguinte alteração: ./src/services/api.js e altere a URL
+  npm run dev ## Se você editou a porta da API faça a seguinte alteração: ./src/services/api.js e altere a URL
 
 ```
 
